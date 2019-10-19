@@ -2,11 +2,126 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="feed"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/pink">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/malaria1" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="230dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Malaria Symtoms"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="230dp"
+            android:text="Dr.JOHN"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btn_shape"
+            android:backgroundTint="@color/cyan"
+            android:text="Read " />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/cyan">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/malaria1" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="230dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Malaria Symtoms"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="250dp"
+            android:text="Dr.JOHN"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="250dp"
+
+            android:text="Read "
+            android:background="@drawable/btn_shape"
+            android:backgroundTint="@color/pink"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/cyan">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/malaria1" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="230dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Malaria Symtoms"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="250dp"
+            android:text="Dr.JOHN"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/btn_shape"
+            android:backgroundTint="@color/pink"
+            android:text="Read "
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
 </RelativeLayout>
