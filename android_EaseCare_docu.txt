@@ -1,0 +1,5 @@
+Tab with fragment
+https://www.codingdemos.com/android-tablayout-example-viewpager/
+
+android migrate to androidx
+https://developer.android.com/jetpack/androidx/migrate/class-mappings
