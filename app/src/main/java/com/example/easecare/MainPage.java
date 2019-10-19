@@ -10,8 +10,6 @@ import androidx.viewpager.widget.ViewPager;
 
 public class MainPage extends AppCompatActivity {
 
-//    TabItem tabNew = findViewById(R.id.tabNew);
-//    TabItem tabMessage = findViewById(R.id.tabMessage);
     ViewPager viewPager;
     TabLayout tabLayout;
 
@@ -31,34 +29,7 @@ public class MainPage extends AppCompatActivity {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-//                if (tab.getPosition() == 1) {
-//                    toolbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-//                            R.color.colorAccent));
-//                    tabLayout.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-//                            R.color.colorAccent));
-//                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-//                        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,
-//                                R.color.colorAccent));
-//                    }
-//                } else if (tab.getPosition() == 2) {
-//                    toolbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-//                            android.R.color.darker_gray));
-//                    tabLayout.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-//                            android.R.color.darker_gray));
-//                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-//                        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,
-//                                android.R.color.darker_gray));
-//                    }
-//                } else {
-//                    toolbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-//                            R.color.colorPrimary));
-//                    tabLayout.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-//                            R.color.colorPrimary));
-//                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-//                        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,
-//                                R.color.colorPrimaryDark));
-//                    }
-//                }
+
             }
 
             @Override

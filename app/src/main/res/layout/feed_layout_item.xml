@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/pink"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/malaria1" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="230dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="txtMalaria Symtoms"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:id="@+id/txtDoctor_name"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="230dp"
+            android:text="Dr.JOHN"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btnRead"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btn_shape"
+            android:backgroundTint="@color/cyan"
+            android:text="Read " />
+    </RelativeLayout>

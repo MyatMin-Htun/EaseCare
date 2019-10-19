@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:id="@+id/View1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/Card1"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hexagon"
+                android:layout_margin="0dp"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/diseaseLayout"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <TextView
+                android:id="@+id/txtDocName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Somethingsrsfaegradgartgatga"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="viewStart"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/doctorLayout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/diseaseLayout">
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:text="Dr.YannKu"
+                android:textColor="#000"
+                android:paddingStart="30dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

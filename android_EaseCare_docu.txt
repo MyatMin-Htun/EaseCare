@@ -3,3 +3,7 @@ https://www.codingdemos.com/android-tablayout-example-viewpager/
 
 android migrate to androidx
 https://developer.android.com/jetpack/androidx/migrate/class-mappings
+
+firebase
+https://camposha.info/android-firebase-realtime-database-with-recyclerview/
+>	https://www.android-examples.com/show-firebase-database-data-into-recyclerview/
