@@ -5,8 +5,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/View1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <RelativeLayout
         android:id="@+id/Card1"
@@ -74,6 +74,7 @@
 
 
 </androidx.cardview.widget.CardView>
+
     <androidx.cardview.widget.CardView
         android:id="@+id/View2"
         android:layout_width="match_parent"
