@@ -2,11 +2,145 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/View1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/Card1"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hexagon"
+                android:layout_margin="0dp"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/diseaseLayout"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Somethingsrsfaegradgartgatga"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="viewStart"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/doctorLayout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/diseaseLayout">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:text="Dr.YannKu"
+                android:textColor="#000"
+                android:paddingStart="30dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/View2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="message"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:layout_below="@id/View1"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:id="@+id/Card2"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hexagon"
+                    android:layout_margin="0dp"/>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/diseaseLayout1"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Somethingsrsfaegradgartgatga"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textAlignment="viewStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/doctorLayout1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/diseaseLayout1">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="Dr.YannKu"
+                    android:textColor="#000"
+                    android:paddingStart="30dp"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 </RelativeLayout>
