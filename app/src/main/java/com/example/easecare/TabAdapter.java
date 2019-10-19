@@ -6,27 +6,27 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 public class TabAdapter extends FragmentStatePagerAdapter {
 
-    int mNumOfTabs;
+    int numOfTabs;
     public TabAdapter(FragmentManager fm, int NumOfTabs) {
         super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        this.mNumOfTabs = NumOfTabs;
+        this.numOfTabs = NumOfTabs;
     }
+
     @Override
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                FeedLayout tab_feed = new FeedLayout();
-                return tab_feed;
+                return new FeedLayout();
             case 1:
-                MessagingLayout tab_message = new MessagingLayout();
-                return tab_message;
+                return  new MessagingLayout();
             default:
                 return null;
         }
     }
+
     @Override
     public int getCount() {
-        return mNumOfTabs;
+        return numOfTabs;
     }
 
 }

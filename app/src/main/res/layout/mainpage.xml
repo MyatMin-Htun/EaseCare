@@ -5,27 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
-
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     <com.google.android.material.tabs.TabItem
+        android:id="@+id/tabNew"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="News" />
 
     <com.google.android.material.tabs.TabItem
+        android:id="@+id/tabMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Message" />
@@ -35,5 +27,6 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tabLayout"/>
 </RelativeLayout>
