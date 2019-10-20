@@ -68,10 +68,8 @@ public class RecyclerViewAdapter_forMessaging extends RecyclerView.Adapter<Recyc
         @Override
         public void onClick(View view) {
             System.out.println(messageList.get(getAdapterPosition()).getName());
-            Intent feedInfo = new Intent(view.getContext(), Feed.class);
-            feedInfo.putExtra("messageInfo_Name", messageList.get(getAdapterPosition()).getName());
-            feedInfo.putExtra("messageInfo_Address", messageList.get(getAdapterPosition()).getAddress());
-            view.getContext().startActivity(feedInfo);
+            Intent messageService = new Intent(view.getContext(), MessageServiceLayout.class);
+            view.getContext().startActivity(messageService);
         }
     }
 }

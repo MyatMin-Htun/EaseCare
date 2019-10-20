@@ -49,23 +49,23 @@ public class MessagingLayout extends Fragment {
 //        progressDialog.show();
 
         Message message = new Message();
-        message.setName("aN");
-        message.setAddress("a");
+        message.setName("Dr.Aung Kyaw Oo");
+        message.setAddress("Bago Regional Hospital");
         messageList.add(message);
 
         message = new Message();
-        message.setName("bN");
-        message.setAddress("b");
+        message.setName("Dr.Wai Phyo Aung");
+        message.setAddress("MyaungMya Regional Hospital");
         messageList.add(message);
 
         message = new Message();
-        message.setName("cN");
-        message.setAddress("c");
+        message.setName("Dr.Hnin Oo Wai");
+        message.setAddress("Magway Regional Hospital");
         messageList.add(message);
 
         message = new Message();
-        message.setName("dN");
-        message.setAddress("d");
+        message.setName("Dr.Ba Oo");
+        message.setAddress("Chauk Regional Hospital");
         messageList.add(message);
 
         adapter = new RecyclerViewAdapter_forMessaging(getActivity(), messageList);

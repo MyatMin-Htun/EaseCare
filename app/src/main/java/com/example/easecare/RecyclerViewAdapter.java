@@ -41,6 +41,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         holder.txtTitle.setText(feedList.getTitle());
         holder.txtDoctorName.setText(feedList.getName());
+        holder.txtContent.setText(feedList.getContent());
     }
 
     @Override
@@ -53,6 +54,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         public TextView txtDoctorName;
         public TextView txtTitle;
+        public TextView txtContent;
 
         public ViewHolder(View itemView) {
 
@@ -60,6 +62,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
             txtDoctorName = (TextView) itemView.findViewById(R.id.txtDoctor_name);
             txtTitle = (TextView) itemView.findViewById(R.id.txtTitle);
+            txtContent = (TextView) itemView.findViewById(R.id.txtContent);
 
             itemView.setOnClickListener(this);
         }
